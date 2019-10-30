@@ -231,8 +231,8 @@ h1 span {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 376px) {
+@media screen and (max-width: 400px) {
   .cover {
-    height: 40vh;
+    transform: scale(0.5);
   }
 }
