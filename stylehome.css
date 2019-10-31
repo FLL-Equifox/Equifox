@@ -321,6 +321,6 @@ h1 span {
 
 @media screen and (max-width: 376px) {
   .cover {
-    height: 20vh;
+    transform: scale(0.7);
   }
 }
