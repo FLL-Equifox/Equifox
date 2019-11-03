@@ -1,2 +1,2 @@
-# Equinox
-"# Equifox" 
+# Equifox
+The Offical FLL Equifox Website
