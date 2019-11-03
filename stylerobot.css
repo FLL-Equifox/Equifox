@@ -78,6 +78,9 @@ body {
   display: flex;
   justify-items: center;
 }
+.robot {
+  object-fit: cover;
+}
 
 @media screen and (max-width: 1024px) {
   .robot-one,
