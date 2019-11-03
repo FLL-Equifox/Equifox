@@ -2,13 +2,35 @@
   margin: 0px;
   padding: 0px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --backcolour: #494964;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
+.logo {
+  width: 55px;
+  height: 50px;
+}
 
+.navbar {
+  background: transparent !important;
+}
+.navbar-brand {
+  color: var(--backcolour) !important;
+}
+.nav-item {
+  font-size: 1.2rem !important;
+  padding: 0 10px 0 0 !important;
+}
+.navbar-nav {
+  margin-right: 10% !important;
+}
+/*
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,8 +39,8 @@ header {
   margin: auto;
   height: 10vh;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .logo-container,
@@ -28,10 +50,6 @@ header {
   display: flex;
 }
 
-.logo-container img {
-  width: 55px;
-  height: 50px;
-}
 
 .logo {
   font-weight: 400;
@@ -44,8 +62,8 @@ header {
 
 .logo-container {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 nav {
@@ -68,7 +86,7 @@ nav {
   cursor: pointer;
   padding: 1px;
 }
-
+*/
 .nav-link:hover {
   -webkit-text-decoration: #494964 underline;
   text-decoration: #494964 underline;
@@ -82,14 +100,20 @@ nav {
   margin: auto;
   min-height: 80vh;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .intro-text h1 {
   font-size: 44px;
   font-weight: 500;
-  background: -webkit-gradient(linear, left top, right top, from(#494964), to(#6f6f89));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#494964),
+    to(#6f6f89)
+  );
   background: linear-gradient(to right, #494964, #6f6f89);
   background-clip: text;
   -webkit-background-clip: text;
@@ -105,7 +129,13 @@ nav {
   justify-content: center;
   font-size: 40px;
   font-weight: 500;
-  background: -webkit-gradient(linear, left top, right top, from(#494964), to(#6f6f89));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#494964),
+    to(#6f6f89)
+  );
   background: linear-gradient(to right, #494964, #6f6f89);
   background-clip: text;
   -webkit-background-clip: text;
@@ -120,21 +150,21 @@ nav {
 
 .introduction {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .cover {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .cover img {
   height: 60vh;
   /*border: #494964 solid;*/
   -webkit-animation: drop 1.5s ease;
-          animation: drop 1.5s ease;
+  animation: drop 1.5s ease;
 }
 
 .big-eclipse {
@@ -167,8 +197,8 @@ nav {
 .crew {
   width: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .crew p {
@@ -178,10 +208,10 @@ nav {
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-animation: drop 1.5s ease;
-          animation: drop 1.5s ease;
+  animation: drop 1.5s ease;
 }
 
 .first,
@@ -191,8 +221,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 form {
@@ -265,12 +295,12 @@ h1 span {
   0% {
     opacity: 0;
     -webkit-transform: translateY(-80px);
-            transform: translateY(-80px);
+    transform: translateY(-80px);
   }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 
@@ -278,12 +308,12 @@ h1 span {
   0% {
     opacity: 0;
     -webkit-transform: translateY(-80px);
-            transform: translateY(-80px);
+    transform: translateY(-80px);
   }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 
@@ -291,8 +321,8 @@ h1 span {
   .presentation {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .introduction {
     margin-top: 5vh;
@@ -314,8 +344,8 @@ h1 span {
   .third {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
