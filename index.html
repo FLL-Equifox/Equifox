@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="stylehome.css" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -34,16 +35,24 @@
   <body>
     <script src="./app.js"></script>
     <header>
-      <div class="logo-container">
-        <img src="./img/log.jpg" alt="logo" />
-        <h4 class="logo">Equifox</h4>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light transparent">
+        <a href="#" class="navbar-brand"><img src="./img/log.png" alt="" class="logo">Equifox</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="theRobot.html" class="nav-link">The Robot</a></li>
+          </ul>
+        </div>
+        </nav>
       </div>
-      <nav>
-        <ul class="nav-links">
-          <li><a class="nav-link" href="./index.html">Home</a></li>
-          <li><a class="nav-link" href="./theRobot.html">The Robot</a></li>
-        </ul>
-      </nav>
     </header>
 
     <main>
@@ -101,13 +110,13 @@
           </div>
           <div class="third">
             <p class="person-five" style="padding: 20px;">
-                I am Project Manager, here at Equifox. I joined
+                I am Project Assistant, here at Equifox. I joined
                 the team because i enjoy</br> being creative and comming
                  up with solutions to modern day problems.</br>
                  -PC Legoright-Do'James
             </p>
             <p calss="person-six" style="padding: 20px;">
-                Hi, I am Project assistant, at team Equifox. My role
+                Hi, I am Project manager, at team Equifox. My role
                 is to help organise</br> all our ideas into one place. inorder
                 to make it cohesive and well presented</br>
                 -Dr Madazzle
@@ -132,7 +141,7 @@
             <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
           </a>
           <a href="#">
-            <img alt="Equinox" src="./img/log.jpg"/>
+            <img alt="Equinox" src="./img/log.png"/>
           </a>
           <a href="https://twitter.com/TeamEquifox5">
             <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
@@ -141,5 +150,8 @@
       </div>
       <!-- Contacts section end -->
     </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
