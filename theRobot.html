@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="stylerobot.css" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -32,18 +33,27 @@
     <title>The Robot</title>
   </head>
   <body>
-    <header>
-      <div class="logo-container">
-        <img src="./img/log.jpg" alt="logo" />
-        <h4 class="logo">Equifox</h4>
-      </div>
-      <nav>
-        <ul class="nav-links">
-          <li><a class="nav-link" href="./index.html">Home</a></li>
-          <li><a class="nav-link" href="./theRobot.html">The Robot</a></li>
-        </ul>
-      </nav>
-    </header>
+      <header>
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light transparent">
+            <a href="#" class="navbar-brand"><img src="./img/log.jpg" alt="" class="logo">Equifox</a>
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarMenu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="theRobot.html" class="nav-link">The Robot</a></li>
+              </ul>
+            </div>
+            </nav>
+          </div>
+        </header>
+    
 
     <img class="big-eclipse" src="./img/big-eclipse.svg" alt="">
     <img class="mid-eclipse" src="./img/mid-eclipse.svg" alt="">
@@ -87,5 +97,8 @@
         </p>
       </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
