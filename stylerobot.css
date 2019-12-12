@@ -66,31 +66,20 @@ body {
   padding-top: 100px;
 }
 
-.robot-one {
+.robot-section {
   display: flex;
   justify-items: center;
 }
-.robot-two {
-  display: flex;
-  justify-items: center;
-}
-.robot-three {
-  display: flex;
-  justify-items: center;
-}
+
 .robot {
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
-  .robot-one,
-  .robot-two,
-  .robot-three {
+  .robot-section {
     flex-direction: column;
   }
-    .robot-one p,
-  .robot-two p,
-  .robot-three p {
+  .robot-section p {
     padding: 0;
     padding-bottom: 100px;
   }
