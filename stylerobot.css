@@ -8,7 +8,11 @@
 :root {
   --backcolour: #494964;
 }
-
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
