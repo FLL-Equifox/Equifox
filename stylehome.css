@@ -7,14 +7,11 @@
 
 :root {
   --backcolour: #494964;
-<<<<<<< HEAD
 }
 html,
 body {
   width: auto !important;
   overflow-x: hidden !important;
-=======
->>>>>>> d830046f7d251500f663b26ac28c020b16a267c2
 }
 
 body {
@@ -307,7 +304,3 @@ h1 span {
   }
 }
 /*# sourceMappingURL=styles.css.map */
-<<<<<<< HEAD
-=======
-
->>>>>>> d830046f7d251500f663b26ac28c020b16a267c2
