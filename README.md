@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Equinox
-=======
-# Equifox
-The Offical FLL Equifox Website
->>>>>>> d830046f7d251500f663b26ac28c020b16a267c2
+<h1> Oficial Equifox website </h1>
+<a href="teamequifox.netlify.com">See Full Website here</a>
+
