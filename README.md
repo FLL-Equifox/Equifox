@@ -2,7 +2,7 @@
   <img src="https://teamequifox.netlify.com/img/log.png" />
  </p>
 <h1> Oficial Equifox website </h1>
-<h4>A website for an <acronym title="First Lego League"><a href="http://firstlegoleague.org/">FLL</a></acronym> Team so that 
+<h4>A website for an <acronym title="First Lego League"><a href="http://firstlegoleague.org/" targ>FLL</a></acronym> Team so that 
 They can present thier Robot in an intresting way</h4>
 <p align="center">
   <a href="https://teamequifox.netlify.com/">See Full Website here</a>
