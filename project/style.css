@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --backcolour: #494964;
+}
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 55px;
+  height: 50px;
+}
+
+.navbar {
+  background: transparent !important;
+}
+.navbar-brand {
+  color: var(--backcolour) !important;
+}
+.nav-item {
+  font-size: 1.2rem !important;
+  padding: 0 10px 0 0 !important;
+}
+.navbar-nav {
+  margin-right: 10% !important;
+}
+.nav-link:hover {
+  text-decoration: #494964 underline;
+}

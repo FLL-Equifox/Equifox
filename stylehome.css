@@ -153,7 +153,7 @@ body {
 .crew p {
   color: #494964;
   border: 10px #13552c solid;
-  border-radius: 30%;
+  border-radius: 30% / 20%;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
   -webkit-box-flex: 1;
