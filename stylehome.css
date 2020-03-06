@@ -8,8 +8,7 @@
 :root {
   --backcolour: #494964;
 }
-html,
-body {
+html {
   width: auto !important;
   overflow-x: hidden !important;
 }
