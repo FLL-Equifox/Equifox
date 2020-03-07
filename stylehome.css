@@ -300,6 +300,8 @@ h1 span {
 @media screen and (max-width: 376px) {
   .cover {
     transform: scale(0.7);
+    width: 35vh;
+    object-fit: cover;
   }
 }
 /*# sourceMappingURL=styles.css.map */
