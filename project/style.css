@@ -40,6 +40,7 @@ body {
 h1 {
   color: #494964;
 }
-.tweets {
-  right: 10px;
+iframe {
+  position: absolute !important;
+  right: 0 !important;
 }
