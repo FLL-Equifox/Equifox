@@ -299,7 +299,7 @@ h1 span {
 
 @media screen and (max-width: 376px) {
   .cover {
-    width: fit-content;
+    width: calc(100vw - 20%);
   }
 }
 /*# sourceMappingURL=styles.css.map */
