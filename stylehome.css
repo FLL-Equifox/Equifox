@@ -299,7 +299,12 @@ h1 span {
 
 @media screen and (max-width: 376px) {
   .cover {
-    width: calc(100vw - 20%);
+    width: calc(100vw - 200px);
+  }
+  .small-eclipse,
+  .mid-eclipse,
+  .big-eclipse {
+    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */
