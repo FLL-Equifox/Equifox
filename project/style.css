@@ -38,6 +38,8 @@ body {
   text-decoration: #494964 underline;
 }
 h1 {
-  margin: 2.5rem 0 4.5rem 0;
   color: #494964;
+}
+.tweets {
+  right: 10px;
 }
