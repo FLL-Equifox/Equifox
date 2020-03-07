@@ -9,6 +9,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="../styles/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylerobot.css" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -59,55 +62,108 @@
     <img class="big-eclipse" src="../img/big-eclipse.svg" alt="">
     <img class="mid-eclipse" src="../img/mid-eclipse.svg" alt="">
     <img class="small-eclipse" src="../img/small-eclipse.svg" alt="">
+    <section class="code">
+      <h1 class="challenge-title">View Our Code Here Updated Weekly</h1>
+      <div class="card">
+        <a href="https://github.com/MeRichard123/FLL-Robot-Programs" class="github-card" data-github="MeRichard123/FLL-Robot-Programs">
+          <div class="card--content">
+            <img src="../img/first.png" alt="First Logo" class="logo">
+            <div class="content">
+              <h3>First Lego League</h3>
+              <p>EV3 Mindstorms code</p>
+              <span class="github-card__meta">
+                <span class="github-card__language-icon" style="color: #7A0410;">●</span> EV3
+              </span>
+              <span class="github-card__meta">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span data-stars>3</span>
+              </span>
+              <span class="github-card__meta">
+                <i class="fa fa-code-fork" aria-hidden="true"></i>
+                <span data-forks>1</span>
+              </span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
 
     <section class="timeline">
       <h1 class="challenge-title">City Shaper Challenge 2019/2020</h1>
-      <div class="robot-section">
-        <img class="robot" src="../img/spacebot2.jpg" alt="" />
-        <p>
-          Date - 10/03/2019 </br>
-          This is <b>WALL-e</b> he was constructed as an experiment
-          with box robots after the January competition. Eventually we 
-          decided to improve our competition score as a lead up to september;
-          we added an attachment made by our engineer (Mr Brandomeister). 
-          It would fall over the cores when it hit them and allow the robot 
-          to extract them. 
-        </p>
-      </div>
-      <div class="robot-section">
-        <img class="robot" src="../img/clawbot1.jpg" alt="" />
-        <p>
-          Date - 10/05/2019</br>
-          Here is an improved version of <b>WALL-e</b> after we scrapped 
-          the box robot idea. This one was constructed after watching a 
-          livestream from America where they were talking about the 
-          City Shaper Challenge and we spotted a lot of pick up tasks,
-          So we decided to make a claw. Again designed by our wonderful
-          engineer.
-        </p>
-      </div>
-      <div class="robot-section"> 
-        <img src="../img/belt1.jpg" alt="" class="robot">
-        <p>
-          Date - 18/09/2019</br>
-          A new design of <b>WALL-e</b> after we realised that on the 2020
-          Challenge board the robot needs to lift things quite high up.
-          So our engineer construced a Conveyor for the robot to hold.
-          If things go to plan we could be able to do quite a few tasks
-          in one run.
-        </p>
-      </div>
-      <div class="robot-section">
-        <img src="../img/sweeper.jpg" alt="" class="robot">
-        <p>Date - 28/11/2019 <br />
-        We have now added a sweeper to <b>WALL-e</b> so that he can push towers into the correct position
-      It works on the basis of us building the towers and then placing it in place</p>
+      <div class="owl-carousel owl-theme">
+        <div class="robot-section">
+          <img class="robot" src="../img/spacebot2.jpg" alt="" />
+          <p>
+            Date - 10/03/2019 </br>
+            This is <b>WALL-e</b> he was constructed as an experiment
+            with box robots after the January competition. Eventually we 
+            decided to improve our competition score as a lead up to september;
+            we added an attachment made by our engineer. 
+            It would fall over the cores when it hit them and allow the robot 
+            to extract them. 
+          </p>
+        </div>
+        <div class="robot-section">
+          <img class="robot" src="../img/clawbot1.jpg" alt="" />
+          <p>
+            Date - 10/05/2019</br>
+            Here is an improved version of <b>WALL-e</b> after we scrapped 
+            the box robot idea. This one was constructed after watching a 
+            livestream from America where they were talking about the 
+            City Shaper Challenge and we spotted a lot of pick up tasks,
+            So we decided to make a claw. Again designed by our wonderful
+            engineer.
+          </p>
+        </div>
+        <div class="robot-section"> 
+          <img src="../img/belt1.jpg" alt="" class="robot">
+          <p>
+            Date - 18/09/2019</br>
+            A new design of <b>WALL-e</b> after we realised that on the 2020
+            Challenge board the robot needs to lift things quite high up.
+            So our engineer construced a Conveyor for the robot to hold.
+            If things go to plan we could be able to do quite a few tasks
+            in one run.
+          </p>
+        </div>
+        <div class="robot-section">
+          <img src="../img/sweeper.jpg" alt="" class="robot">
+          <p>Date - 28/11/2019 <br />
+          We have now added a sweeper to <b>WALL-e</b> so that he can push towers into the correct position
+        It works on the basis of us building the towers and then placing it in place.</p>
+        </div>
       </div>
       <h1 class="challenge-title">Challenge Name 2020/2021</h1>
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../JS/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          loop:true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          dots: true,
+          responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            1000:{
+              items: 3,
+              nav: false
+            }
+          }
+        })
+      })
+    </script>
   </body>
 </html>
 
