@@ -109,8 +109,10 @@ body {
 }
 
 .cover img {
-  height: 60vh;
-  /*border: #494964 solid;*/
+  width: 100%;
+  height: auto;
+  max-height: 60vh;
+  object-fit: cover;
   -webkit-animation: drop 1.5s ease;
   animation: drop 1.5s ease;
 }
@@ -294,17 +296,6 @@ h1 span {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .cover {
-    width: calc(100vw - 200px);
-  }
-  .small-eclipse,
-  .mid-eclipse,
-  .big-eclipse {
-    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */

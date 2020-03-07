@@ -120,4 +120,10 @@ body {
     font-size: 1.5rem;
     text-align: center;
   }
+
+  .small-eclipse,
+  .mid-eclipse,
+  .big-eclipse {
+    display: none;
+  }
 }
