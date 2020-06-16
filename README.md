@@ -7,4 +7,4 @@ They can present thier Robot in an intresting way</h4>
 <p align="center">
   <a href="https://teamequifox.netlify.com/">See Full Website here</a>
 </p>
-<p>Equifox is a FLL team. They needed a way to present themselves at the annual competition without having to carry around lots of posters. They asked me to make them a website so that they can show who they are and how their robot is comming along. As a result they are now able to show their For this i used Bootstrap.</p>
+<p>Equifox is a FLL team. They needed a way to present themselves at the annual competition without having to carry around lots of posters. They asked me to make them a website so that they can show who they are and how their robot is comming along. As a result they are now able to show their work. For this I used a Bootstrap navbar.</p>
