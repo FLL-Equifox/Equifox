@@ -6,7 +6,9 @@
 }
 
 :root {
-  --backcolour: #494964;
+  --backColour: #494964;
+  --teamColour: #13552c;
+  --btn-hover: #01b462;
 }
 body,
 html {
@@ -27,7 +29,7 @@ body {
   background: transparent !important;
 }
 .navbar-brand {
-  color: var(--backcolour) !important;
+  color: var(--backColour) !important;
 }
 .nav-item {
   font-size: 1.2rem !important;
@@ -154,7 +156,7 @@ body {
 
 .crew p {
   color: #494964;
-  border: 10px #13552c solid;
+  border: 10px var(--teamColour) solid;
   border-radius: 30% / 20%;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
@@ -186,7 +188,7 @@ form h2 {
 }
 
 .submit {
-  background-color: #01b462;
+  background-color: var(--btn-hover);
   padding: 12px 45px;
   border-radius: 5px;
   cursor: pointer;
@@ -198,7 +200,7 @@ form h2 {
 }
 
 .submit:hover {
-  background-color: #13552c;
+  background-color: var(--teamColour);
 }
 
 textarea {
@@ -219,7 +221,7 @@ textarea {
 }
 
 h1 span {
-  border: 4px dashed #20bcd5;
+  border: 4px dashed var(--teamColour);
   padding: 10px;
 }
 

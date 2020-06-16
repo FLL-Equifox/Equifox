@@ -1,3 +1,6 @@
+<!-- Search for Team -->
+<!-- https://undraw.co/search -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,7 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="stylehome.css" />
+    <link rel="stylesheet" href="./stylehome.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -30,14 +33,13 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Equifox</title>
+    <title data-team>Team Logo</title>
   </head>
   <body>
-    <script src="./app.js"></script>
     <header>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-xl navbar-light bg-light transparent">
-        <a href="#" class="navbar-brand"><img src="./img/log.png" alt="" class="logo">Equifox</a>
+        <a href="#" class="navbar-brand"><img src="./img/log.png" alt="" class="logo"><span data-team>Team Logo</span></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -58,7 +60,7 @@
           <div class="intro-text">
             <h1>About Us</h1>
             <p>
-              We are Team Equifox, from Peterborough.</br>Welcome to our website. We
+              We are Team <span data-team>Team Logo</span>, from Peterborough.</br>Welcome to our website. We
               are Students who</br> all have a passion in robotics and innovation for</br>
               our planet.
             </p>
@@ -77,13 +79,13 @@
           <h1>Meet the team</h1>
           <div class="first bio">
               <p class="person-one" style="padding: 20px;">
-                I am project Assistant here at Equifox, I help the team by 
+                I am project Assistant here at <span data-team>Team Logo</span>, I help the team by 
                 providing creative ideas and helping in various areas<br />
                        -Jakub
               </p>
               <p class="person-two" style="padding: 20px;">
                   I have been part of the programming and software team
-                  here at Equifox since the beginning of the 2019 Challenge,
+                  here at <span data-team>Team Logo</span> since the beginning of the 2019 Challenge,
                   I enjoy working with everyone in the team to solve problems
                   and direct the robot to complete tasks.</br>
                   -Richard 
@@ -91,15 +93,15 @@
           </div>
           <div class="second bio">
               <p class="person-three" style="padding: 20px;">
-                  I am an engineer on the Equifox team. My role consists of building
+                  I am an engineer on the <span data-team>Team Logo</span> team. My role consists of building
                 the robot, its attachments and maintaining it. I am also part of the programming
-              team helping it to complete many tasks on the board. I joined the Equifox team as 
+              team helping it to complete many tasks on the board. I joined the <span data-team>Team Logo</span> team as 
                really enjoy programming and building robots so it was a perfect opportunity for me. </br>
                   -Brandon 
               </p>
-            <p calss="person-six" style="padding: 20px;">
-                Hi, I am Project manager, at team Equifox. My role
-                is to help organise all our ideas into one place. In order
+            <p class="person-six" style="padding: 20px;">
+                Hi, I am Project manager, at team <span data-team>Team Logo</span>. My role
+                is to help organize all our ideas into one place. In order
                 to make it cohesive and well presented.</br>
                 -Doville 
             </p>
@@ -132,6 +134,7 @@
       </div>
       <!-- Contacts section end -->
     </main>
+    <script src="./JS/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
